@@ -1,0 +1,93 @@
+Rezultatele testelor asupra programului Calculator.java sunt urmatoarele:
+
+Test efectual adunare
+Input: 4+4
+Output: 8.0
+Expected: 8.0
+Rezultat: Test efectuat cu succes
+
+Test efectuat scadere
+Input: 9-5
+Output: 4.0
+Expected: 4.0
+Rezultat: Test efectuat cu succes
+
+Test efectuat inmultire
+Input: 3*2
+Output: 6.0
+Expected: 6.0
+Rezultat: Test efectuat cu succes
+
+Test efectuat impartire
+Input: 8/2
+Output: 4.0
+Expected: 4.0
+Rezultat: Test efectual cu succes
+
+Test efectuat impartirea la 0
+Input: 0/3
+Output: 0.0
+Expected: 0.0
+Rezultat: Test efectual cu succes
+
+Input: 3/0
+Output: Infinity
+Expected: 0.0
+Rezultat: Testul a fost picat
+
+Test efectuat operatii cu paranteze
+Input: 6+(3*9)
+Output: ERROR
+Expected: 33.0
+Rezultat: Testul a fost picat
+
+Test efectuat adaugarea literelor in operatii
+Input: 6+a+4
+Output: ERROR
+Expected: ERROR
+Rezultat: Test efectuat cu succes
+
+Test efectuat rest
+Input: 7%
+Output: ERROR
+Expected: 0.07
+Rezultat: Testul a fost picat
+
+Test efectuat adunare cu zecimale
+Input: 8.44+6.21
+Output: 14.65
+Expected: 14.65
+Rezultat: Test efectuat cu succes
+
+Test efectuat impartirea 0 cu 0
+Input: 0/0
+Output: NaN
+Expected: NaN
+Rezultat: Test efectuat cu succes
+
+Test efectuat operatii cu numere negative
+Input: -9+2
+Output: -7.0
+Expected: -7.0
+Rezultat: Testul fost efectuat cu succes
+
+Input: -9*2
+Output: -18.0
+Expected: -18.0
+Rezultat: Test fost efectuat cu succes
+
+Input: -9/2
+Output: -4.5
+Expected: -4.5
+Rezultat: Test fost efectuat cu succes
+
+Test efectuat parasirea programului
+Input: exit
+Output: parasirea programului
+Expected: parasirea programului
+Rezultat: Test fost efectuat cu succes
+
+
+Concluzii:
+Programul ruleaza rapid si fara probleme
+Este nevoie sa fie remediate problemele aparute in urma testelor de mai sus.
